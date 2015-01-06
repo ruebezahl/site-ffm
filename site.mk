@@ -20,7 +20,8 @@ GLUON_SITE_PACKAGES := \
 	gluon-status-page \
 	iwinfo \
 	iptables \
-	haveged
+	haveged \
+	tcpdump
 
 
 DEFAULT_GLUON_RELEASE := snapshot~$(shell date '+%Y%m%d')
